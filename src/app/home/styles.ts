@@ -24,5 +24,32 @@ export const styles = StyleSheet.create({
       fontSize:14,
       fontFamily: fontFamily.medium,  
     },
+    ticket: {
+      backgroundColor: colors.white,
+      flex:1,
+      width:"100%",
+      borderRadius:22,
+      overflow: "hidden",
+      paddingBottom:24,
+    },
+    content: {
+      padding:20,
+    },
+    flight: {
+      width:"100%",
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems:"center",
+      marginBottom:52,
+    },
+    duration: {
+      alignItems:"center",
+    },
+    hours: {
+      color: colors.gray[800],
+      fontSize: 14,
+      fontFamily: fontFamily.regular,
+    },
+
   });
   
