@@ -20,13 +20,12 @@ export const styles = StyleSheet.create({
       fontFamily: fontFamily.extrabold
     },
     subtitle:{
-      color:colors.gray[300],
+      color:colors.white,
       fontSize:14,
       fontFamily: fontFamily.medium,  
     },
     ticket: {
       backgroundColor: colors.white,
-      flex:1,
       width:"100%",
       borderRadius:22,
       overflow: "hidden",
@@ -49,6 +48,36 @@ export const styles = StyleSheet.create({
       color: colors.gray[800],
       fontSize: 14,
       fontFamily: fontFamily.regular,
+    },
+    label: {
+      color: colors.black,
+      fontSize:12,
+      textTransform: "uppercase",
+      fontFamily: fontFamily.regular,
+    },
+    name: {
+      color: colors.black,
+      fontSize:22,
+      fontFamily: fontFamily.bold,
+    },
+    details: {
+      marginTop: 30,
+    },
+    inline:{
+      width: "100%",
+      flexDirection: "row",
+      justifyContent: "space-between",
+      alignItems:"center",
+    },
+    footerContent: {
+      gap:37,
+      flex:1,
+    },
+    footer: {
+      width: "100%",
+      padding:20,
+      flexDirection:"row",
+      gap:19,
     },
 
   });
